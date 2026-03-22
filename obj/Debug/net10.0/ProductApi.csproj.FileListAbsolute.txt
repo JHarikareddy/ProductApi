@@ -159,3 +159,4 @@ C:\Users\00325105\OneDrive - Nexer AB\Documents\vscode\.Net mini project\Product
 C:\Users\00325105\OneDrive - Nexer AB\Documents\vscode\.Net mini project\ProductApi\obj\Debug\net10.0\ProductApi.pdb
 C:\Users\00325105\OneDrive - Nexer AB\Documents\vscode\.Net mini project\ProductApi\obj\Debug\net10.0\ProductApi.genruntimeconfig.cache
 C:\Users\00325105\OneDrive - Nexer AB\Documents\vscode\.Net mini project\ProductApi\obj\Debug\net10.0\ref\ProductApi.dll
+C:\Users\00325105\OneDrive - Nexer AB\Documents\vscode\.Net mini project\ProductApi\obj\Debug\net10.0\ProductApi.sourcelink.json
