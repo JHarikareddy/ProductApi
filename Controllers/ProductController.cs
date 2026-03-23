@@ -157,7 +157,7 @@ public IActionResult SortByPrice(string order = "asc")
 public IActionResult GetOutOfStockProducts()
 {
     var products = _context.Products
-                           .Where(p => p.StockQuantity == 0)
+                           .Where(p => p.Stock == 0)
                            .ToList();
 
     return Ok(products);
