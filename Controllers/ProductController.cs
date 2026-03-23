@@ -153,5 +153,14 @@ public IActionResult SortByPrice(string order = "asc")
         return StatusCode(500, ex.Message);
     }
 }
+[HttpGet("outofstock")]
+public IActionResult GetOutOfStockProducts()
+{
+    var products = _context.Products
+                           .Where(p => p.StockQuantity == 0)
+                           .ToList();
+
+    return Ok(products);
+}
 }
 }
